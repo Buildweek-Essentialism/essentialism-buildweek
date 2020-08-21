@@ -391,161 +391,197 @@ h2 {
 /* --------- MEDIA 1024PX -----------
  -----------------------------------
  ----------------------------------- */
- @media (max-width: 1024px) {
-  
+@media (max-width: 1024px) {
   .main-container {
     margin-top: 170px;
   }
-  
+
   .middle-section {
     height: 40vh;
     width: 100%;
   }
 
-/* --------- MEDIA 800PX -----------
+  /* --------- MEDIA 800PX -----------
  -----------------------------------
  ----------------------------------- */
-@media (max-width: 800px) {
-  .middle-section {
-    height: 18vh;
-    width: 100%;
+  @media (max-width: 800px) {
+    .middle-section {
+      height: 18vh;
+      width: 100%;
+    }
+
+    .logo {
+      margin-left: 30px;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    .text-section-main {
+      margin-top: 40px;
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      margin-top: 146px;
+      font-size: 3.5rem;
+    }
+
+    .middle-image {
+      height: 100%;
+      width: 30%;
+    }
+
+    .footer {
+      height: 60vh;
+      width: 100%;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .card {
+      height: 35%;
+      width: 50%;
+      margin-bottom: 10px;
+      margin: 12px;
+      padding: 20px;
+    }
+
+    .footer-image {
+      margin-top: 25%;
+    }
+
+    .card-text {
+      width: 100%;
+      display: flex;
+      padding: 3px;
+    }
+
+    .card-text-paragraph {
+      margin-top: 8px;
+    }
+
+    team-flex {
+      max-height: 40%;
+      max-width: 40%;
+    }
   }
 
-  .logo {
-    margin-left: 30px;
-  }
-
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  .text-section-main {
-    margin-top: 40px;
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    margin-top: 146px;
-    font-size: 3.5rem;
-  }
-
-  .middle-image {
-    height: 100%;
-    width: 30%;
-  }
-
-  .footer {
-    height: 60vh;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  .card {
-    height: 35%;
-    width: 50%;
-    margin-bottom: 10px;
-    margin: 12px;
-    padding: 20px;
-  }
-
-  .footer-image {
-    margin-top: 25%;
-  }
-
-  .card-text {
-    width: 100%;
-    display: flex;
-    padding: 3px;
-  }
-
-  .card-text-paragraph {
-    margin-top: 8px;
-  }
-}
-
-/* --------- MEDIA 500PX -----------
+  /* --------- MEDIA 500PX -----------
  -----------------------------------
  ----------------------------------- */
 
-@media (max-width: 500px) {
-  .main-container {
-    margin: 5% 7%;
+  @media (max-width: 500px) {
+    .main-container {
+      margin: 5% 7%;
+    }
+
+    .header {
+      padding-left: 20px;
+      height: 40px;
+      max-width: 76vw;
+      font-size: 0.8rem;
+    }
+
+    .logo {
+      padding-right: 20px;
+    }
+
+    .nav {
+      width: 100%;
+      align-items: flex-start;
+      padding-right: 1px;
+    }
+
+    .link {
+      width: 17%;
+    }
+
+    a {
+      font-size: 1rem;
+      border-bottom: none;
+    }
+
+    a:hover {
+      font-size: 1.1rem;
+    }
+
+    h1 {
+      margin-top: 10px;
+      font-size: 2rem;
+    }
+
+    .middle-image {
+      width: 30%;
+    }
+
+    .text-section-main {
+      margin-top: 55px;
+      font-size: 1rem;
+    }
+
+    h2 {
+      margin-top: 55px;
+      font-size: 2rem;
+    }
+
+    .footer {
+      height: 50%;
+      flex-direction: column;
+    }
+
+    .card {
+      width: 75%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    #card-class {
+      margin-top: 90px;
+    }
+
+    .card-text {
+      width: 80%;
+      flex-direction: column;
+      padding: 10px;
+    }
+
+    .card-text-header {
+      font-size: 1.3rem;
+    }
+
+    /* ABOUT TEAM */
+
+    #team-content img {
+      justify-items: center;
+      margin-left: 17px;
+    }
+    #team-content {
+      margin-top: 20px;
+      display: flex;
+      text-align: baseline;
+      align-items: center;
+      margin-left: 25%;
+      margin-bottom: 12px;
+      max-height: 50%;
+    }
+
+    #team-a {
+      border-bottom: none;
+    }
+
+    .member-section {
+      max-height: 40%;
+      margin-top: 50px;
+      width: 95%;
+      margin: 0 auto;
+    }
+    .team-flex {
+      margin-top: 40px;
+    }
+
+    
+    }
   }
-
-  .header {
-    padding-left: 20px;
-    height: 40px;
-    max-width: 76vw;
-    font-size: 0.8rem;
-  }
-
-  .logo {
-    padding-right: 20px;
-  }
-
-  .nav {
-    width: 100%;
-    align-items: flex-start;
-    padding-right: 1px;
-  }
-
-  .link {
-    width: 17%;
-  }
-
-  a {
-    font-size: 1rem;
-    border-bottom: none;
-  }
-
-  a:hover {
-    font-size: 1.1rem;
-  }
-
-  h1 {
-    margin-top: 10px;
-    font-size: 2rem;
-  }
-
-  .middle-image {
-    width: 30%;
-  }
-
-  .text-section-main {
-    margin-top: 55px;
-    font-size: 1rem;
-  }
-
-  h2 {
-    margin-top: 55px;
-    font-size: 2rem;
-  }
-
-  .footer {
-    height: 50%;
-    flex-direction: column;
-  }
-
-  .card {
-    width: 75%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-  }
-
-  #card-class {
-    margin-top: 90px;
-  }
-
-  .card-text {
-    width: 80%;
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .card-text-header {
-    font-size: 1.3rem;
-  }
-
-
 }
