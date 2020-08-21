@@ -145,23 +145,34 @@ html {
 
 /* -------CSS VARIABLES ------- */
 :root {
-  --main-pink: #e8c1d2;
-  --main-font: helvetica;
+  --main-color: #dcffdb;
+  --main-font: "Raleway", sans-serif;
   --essential-blue: #1c2840;
 }
 
+body {
+  background: white;
+}
+
+.main-container {
+  border: 5px solid red;
+  margin: 5% 7%;
+}
+
 .header {
-  background-color: var(--essential-blue);
-  height: 200px;
+  background-color: var(--main-color);
+  height: 150px;
   width: 100%;
   display: flex;
   align-items: center;
 }
 
 .logo {
-  background-color: green;
+  background-color: var(--main-color);
   height: 33%;
-  width: 33%;
+  width: 20%;
+  margin: 0 auto;
+  text-align: baseline;
 }
 
 .logo img {
@@ -181,8 +192,16 @@ html {
 
 .link {
   background-color: purple;
-  height: 33%;
-  width: 15%;
+  height: 40%;
+  width: 30%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+  font-weight: bold;
+  font-family: var(--main-font);
 }
 
 .button {
@@ -192,20 +211,20 @@ html {
 }
 
 .middle-section {
-  background-color: purple;
+  background-color: var(--main-color);
   height: 200px;
   width: 100%;
   display: flex;
 }
 
 .text-section {
-  background-color: goldenrod;
+  background-color: var(--main-color);
   height: 100%;
   width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--main-font);
 }
 
 .text-section div {
@@ -214,12 +233,27 @@ html {
   width: 100%;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
 .middle-image {
-  background-color: pink;
   height: 100%;
   width: 50%;
   display: flex;
   justify-content: center;
+}
+
+.text-section-main {
+  font-size: 1.5rem;
+}
+
+span {
+  font-style: italic;
 }
 
 .middle-image img {
@@ -228,24 +262,24 @@ html {
 }
 
 .footer {
-  background-color: yellow;
-  height: 200px;
+  background-color: var(--main-color);
+  height: 300px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--main-font);
 }
 
 .card {
-  background-color: gray;
-  height: 40%;
-  width: 20%;
+  background-color: white;
+  height: 50%;
+  width: 23%;
   display: flex;
 }
 
 .footer-image {
-  background-color: green;
+  background-color: white;
   height: 100%;
   width: 50%;
 }
@@ -256,19 +290,23 @@ html {
 }
 
 .card-text {
-  background-color: rebeccapurple;
+  background-color: white;
   height: 100%;
   width: 80%;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-text-header {
-  background-color: sandybrown;
+  background-color: white;
   height: 50%;
   width: 100%;
+  font-size: 1.3rem;
+  margin-top: 15%;
 }
 
 .card-text-paragraph {
-  background-color: rosybrown;
+  background-color: white;
   height: 50%;
   width: 100%;
 }
