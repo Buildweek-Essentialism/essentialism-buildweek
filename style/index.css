@@ -348,6 +348,62 @@ h2 {
  -----------------------------------
  ----------------------------------- */
 @media (max-width: 800px) {
+  .middle-section {
+    height: 18vh;
+    width: 100%;
+  }
+
+  .logo {
+    margin-left: 30px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .text-section-main {
+    margin-top: 40px;
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    margin-top: 146px;
+    font-size: 3.5rem;
+  }
+
+  .middle-image {
+    height: 100%;
+    width: 30%;
+  }
+
+  .footer {
+    height: 60vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .card {
+    height: 35%;
+    width: 50%;
+    margin-bottom: 10px;
+    margin: 12px;
+    padding: 20px;
+  }
+
+  .footer-image {
+    margin-top: 25%;
+  }
+
+  .card-text {
+    width: 100%;
+    display: flex;
+    padding: 3px;
+  }
+
+  .card-text-paragraph {
+    margin-top: 8px;
+  }
 }
 
 /* --------- MEDIA 500PX -----------
