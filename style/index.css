@@ -93,6 +93,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -142,8 +143,15 @@ html {
 
 /* -------My code starts here ------- */
 
+/* -------CSS VARIABLES ------- */
+:root {
+  --main-pink: #e8c1d2;
+  --main-font: helvetica;
+  --essential-blue: #1c2840;
+}
+
 .header {
-  background-color: red;
+  background-color: var(--essential-blue);
   height: 200px;
   width: 100%;
   display: flex;
@@ -154,6 +162,12 @@ html {
   background-color: green;
   height: 33%;
   width: 33%;
+}
+
+.logo img {
+  max-height: 100%;
+  max-width: 100%;
+  margin-left: 10%;
 }
 
 .nav {
@@ -191,6 +205,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  font-family: "Raleway", sans-serif;
 }
 
 .text-section div {
@@ -203,6 +218,13 @@ html {
   background-color: pink;
   height: 100%;
   width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.middle-image img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .footer {
@@ -212,6 +234,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-family: "Raleway", sans-serif;
 }
 
 .card {
@@ -224,7 +247,12 @@ html {
 .footer-image {
   background-color: green;
   height: 100%;
-  width: 20%;
+  width: 50%;
+}
+
+.footer-image img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .card-text {
