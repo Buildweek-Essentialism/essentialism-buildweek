@@ -213,13 +213,11 @@ a {
 
 a:hover {
   color: green;
-  text-decoration: underline;
+  font-size: 1.2rem;
 }
 
 .one:hover {
   color: green;
-  font-weight: 900;
-  text-decoration: underline;
 }
 
 .middle-section {
@@ -257,6 +255,7 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .middle-image {
@@ -304,13 +303,17 @@ h2 {
 .footer-image {
   height: 100%;
   width: 100%;
-  margin-top: 20%;
+  margin-top: 15%;
 }
 
 .footer-image img {
   max-height: 100%;
   max-width: 100%;
   padding-right: 10px;
+}
+
+.world-image img {
+  padding-bottom: 20px;
 }
 
 .card-text {
@@ -325,7 +328,7 @@ h2 {
   height: 23%;
   width: 100%;
   font-size: 1.3rem;
-  margin-top: 15%;
+  margin-top: 20%;
   margin-bottom: 5px;
 }
 
