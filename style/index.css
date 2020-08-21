@@ -147,11 +147,10 @@ html {
 :root {
   --main-color: #dcffdb;
   --main-font: "Raleway", sans-serif;
-  --essential-blue: #1c2840;
+  --second-main-color: #ff6484;
 }
 
 body {
-  background: white;
   font-family: var(--main-font);
 }
 
@@ -165,20 +164,23 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .logo {
-  background-color: var(--main-color);
   height: 33%;
   width: 20%;
   margin: 0 auto;
   text-align: baseline;
+  display: flex;
+  align-items: center;
+  padding-right: 230px;
 }
 
 .logo img {
   max-height: 100%;
   max-width: 100%;
-  margin-left: 10%;
 }
 
 .nav {
@@ -187,6 +189,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding-right: 90px;
 }
 
 .link {
@@ -200,11 +203,23 @@ a {
   color: black;
   font-weight: bold;
   font-family: var(--main-font);
+  border-bottom: 1px dotted green;
 }
 
-.button {
-  height: 33%;
-  width: 33%;
+.one {
+  color: var(--second-main-color);
+  font-weight: bolder;
+}
+
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.one:hover {
+  color: green;
+  font-weight: 900;
+  text-decoration: underline;
 }
 
 .middle-section {
@@ -212,10 +227,11 @@ a {
   height: 200px;
   width: 100%;
   display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
 }
 
 .text-section {
-  background-color: var(--main-color);
   height: 100%;
   width: 50%;
   display: flex;
@@ -231,6 +247,12 @@ a {
 
 h1 {
   font-size: 3rem;
+  animation: bounce;
+  animation-duration: 2s;
+}
+
+.header-style {
+  font-style: italic;
 }
 
 h2 {
@@ -239,16 +261,16 @@ h2 {
 
 .middle-image {
   height: 100%;
-  width: 50%;
+  width: 25%;
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 
 .text-section-main {
   font-size: 1.5rem;
 }
 
-span {
+.two {
   font-style: italic;
 }
 
@@ -263,46 +285,52 @@ span {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-family: var(--main-font);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .card {
   background-color: white;
-  height: 50%;
-  width: 23%;
+  padding: 10px;
+  height: 60%;
+  width: 20%;
   display: flex;
+  border-radius: 10px;
+  padding-right: 30px;
 }
 
 .footer-image {
-  background-color: white;
   height: 100%;
-  width: 50%;
+  width: 100%;
+  margin-top: 20%;
 }
 
 .footer-image img {
   max-height: 100%;
   max-width: 100%;
+  padding-right: 10px;
 }
 
 .card-text {
-  background-color: white;
   height: 100%;
   width: 80%;
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 
 .card-text-header {
-  background-color: white;
-  height: 50%;
+  height: 23%;
   width: 100%;
   font-size: 1.3rem;
   margin-top: 15%;
+  margin-bottom: 5px;
 }
 
 .card-text-paragraph {
-  background-color: white;
   height: 50%;
   width: 100%;
+  margin-top: 5px;
 }
