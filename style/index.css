@@ -343,3 +343,205 @@ h2 {
   width: 100%;
   margin-top: 5px;
 }
+
+/* --------- MEDIA 800PX -----------
+ -----------------------------------
+ ----------------------------------- */
+@media (max-width: 800px) {
+}
+
+/* --------- MEDIA 500PX -----------
+ -----------------------------------
+ ----------------------------------- */
+
+@media (max-width: 500px) {
+  body {
+    font-family: var(--main-font);
+  }
+
+  .main-container {
+    margin: 5% 7%;
+  }
+
+  .header {
+    padding-left: 20px;
+    height: 40px;
+    max-width: 76vw;
+    font-size: 0.8rem;
+  }
+
+  .logo {
+    height: 30%;
+    width: 20%;
+    margin: 0 auto;
+    text-align: baseline;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+  }
+
+  .logo img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .nav {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-right: 1px;
+  }
+
+  .link {
+    height: 30%;
+    width: 8%;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    font-family: var(--main-font);
+    border-bottom: none;
+  }
+
+  .one {
+    color: var(--second-main-color);
+    font-weight: bolder;
+  }
+
+  a:hover {
+    color: green;
+    font-size: 1.1rem;
+  }
+
+  .one:hover {
+    color: green;
+  }
+
+  .middle-section {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  .text-section {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .text-section div {
+    height: 20%;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    animation: bounce;
+    animation-duration: 2s;
+  }
+
+  .header-style {
+    font-style: italic;
+  }
+
+  .header-style-two {
+    text-decoration: underline;
+    text-decoration-color: var(--second-main-color);
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--second-main-color);
+  }
+
+  .middle-image {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: right;
+  }
+
+  .text-section-main {
+    font-size: 1rem;
+  }
+
+  .two {
+    font-style: italic;
+  }
+
+  .middle-image img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .footer {
+    background-color: var(--main-color);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: var(--main-font);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .card {
+    background-color: white;
+    padding: 10px;
+    height: 60%;
+    width: 20%;
+    display: flex;
+    border-radius: 10px;
+    padding-right: 30px;
+  }
+
+  .footer-image {
+    height: 100%;
+    width: 100%;
+    margin-top: 15%;
+  }
+
+  .footer-image img {
+    max-height: 100%;
+    max-width: 100%;
+    padding-right: 10px;
+  }
+
+  .world-image img {
+    padding-bottom: 20px;
+  }
+
+  .card-text {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .card-text-header {
+    height: 23%;
+    width: 100%;
+    font-size: 1.3rem;
+    margin-top: 20%;
+    margin-bottom: 5px;
+  }
+
+  .card-text-paragraph {
+    height: 50%;
+    width: 100%;
+    margin-top: 5px;
+  }
+}
