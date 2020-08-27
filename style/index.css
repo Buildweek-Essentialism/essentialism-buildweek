@@ -158,7 +158,9 @@ body {
   margin: 5% 7%;
 }
 
-.header {
+/*---------- HEADER ------------*/
+
+header {
   background-color: var(--main-color);
   height: 150px;
   width: 100%;
@@ -183,7 +185,9 @@ body {
   max-width: 100%;
 }
 
-.nav {
+/*---------- NAV ------------*/
+
+nav {
   height: 33%;
   width: 33%;
   display: flex;
@@ -219,6 +223,8 @@ a:hover {
 .one:hover {
   color: green;
 }
+
+/*---------- MIDDLE SECTION ------------*/
 
 .middle-section {
   background-color: var(--main-color);
@@ -264,13 +270,6 @@ h2 {
   color: var(--second-main-color);
 }
 
-.middle-image {
-  height: 100%;
-  width: 25%;
-  display: flex;
-  justify-content: right;
-}
-
 .text-section-main {
   font-size: 1.5rem;
 }
@@ -279,10 +278,21 @@ h2 {
   font-style: italic;
 }
 
+/*---------- MIDDLE SECTION IMAGE ------------*/
+
+.middle-image {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: right;
+}
+
 .middle-image img {
   max-height: 100%;
   max-width: 100%;
 }
+
+/*---------- FOOTER ------------*/
 
 .footer {
   background-color: var(--main-color);
@@ -304,22 +314,6 @@ h2 {
   display: flex;
   border-radius: 10px;
   padding-right: 30px;
-}
-
-.footer-image {
-  height: 100%;
-  width: 100%;
-  margin-top: 15%;
-}
-
-.footer-image img {
-  max-height: 100%;
-  max-width: 100%;
-  padding-right: 10px;
-}
-
-.world-image img {
-  padding-bottom: 20px;
 }
 
 .card-text {
@@ -344,7 +338,25 @@ h2 {
   margin-top: 5px;
 }
 
-/* ABOUT TEAM */
+/*---------- FOOTER IMAGE ------------*/
+
+.footer-image {
+  height: 100%;
+  width: 100%;
+  margin-top: 15%;
+}
+
+.footer-image img {
+  max-height: 100%;
+  max-width: 100%;
+  padding-right: 10px;
+}
+
+.world-image img {
+  padding-bottom: 20px;
+}
+
+/*---------- ABOUT TEAM PAGE ------------*/
 
 #team-content img {
   max-height: 10%;
@@ -433,6 +445,8 @@ h2 {
       width: 30%;
     }
 
+    /*---------- FOOTER ------------*/
+
     .footer {
       height: 60vh;
       width: 100%;
@@ -477,7 +491,9 @@ h2 {
       margin: 5% 7%;
     }
 
-    .header {
+/*---------- HEADER/NAV ------------*/
+
+    header {
       padding-left: 20px;
       height: 40px;
       max-width: 76vw;
@@ -488,7 +504,7 @@ h2 {
       padding-right: 20px;
     }
 
-    .nav {
+    nav {
       width: 100%;
       align-items: flex-start;
       padding-right: 1px;
@@ -525,6 +541,8 @@ h2 {
       margin-top: 55px;
       font-size: 2rem;
     }
+
+    /*---------- FOOTER ------------*/
 
     .footer {
       height: 50%;
