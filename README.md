@@ -6,8 +6,10 @@
 
 Built with:
 ----
-* HTML and
-*  CSS
+* html and
+*  css
 
 My first collaborative project working with six developers over a period of two weeks.
 I finished my part (solely responsible for creating a responsive landing page for the project) in two coffee-fueled nights.
+
+---
